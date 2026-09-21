@@ -1,0 +1,5 @@
+[2026-09-21 06:25:33 UTC] iverilog '-Wall' '-g2012' design.sv testbench.sv  && unbuffer vvp a.out  
+a= 4 b= 3 cin=0 | sum=0111 cout=0
+a=15 b= 1 cin=0 | sum=0000 cout=1
+a= 7 b= 7 cin=1 | sum=1111 cout=0
+a= 1 b= 5 cin=0 | sum=0110 cout=0
